@@ -1,0 +1,63 @@
+@media(max-width: 1370px){
+
+    body{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    header{
+        display: flex;
+        justify-content: center;
+        padding-right: 370px;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    main .ilustracao{
+        width: 60vh;
+    }
+
+
+}
+
+@media(max-width: 430px){
+
+    header {
+        padding-left: 200px;
+    }
+
+    main .ilustracao{
+        width: 40vh;
+    }
+
+    main .informations .text{
+        font-size: 20px;
+        max-width: 400px;
+    }
+
+    main .informations .title{
+        font-size: 30px;
+        max-width: 400px;
+    }
+
+    main .informations .btn{
+        width: 400px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer{
+        padding-right: 100px;
+    }
+}
